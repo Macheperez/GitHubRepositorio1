@@ -1,4 +1,4 @@
-﻿﻿//Programa que permite vizualizar los departamentos de Nicaragua con
+﻿//Programa que permite vizualizar los departamentos de Nicaragua con
 //su cantidad Poblacional
 //Encuentra Mayor, Menor, sumas y ordena los datos
 using System.Collections;

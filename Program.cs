@@ -24,10 +24,6 @@ Console.WriteLine($"datos Desordenados");
 foreach (var item in diccionario)
 Console.WriteLine($"{item.Key, -20}==>{item.Value, 10:NO}");
 Console.WriteLine();
-//Ordenando con LINQ OrderBy el diccionario
-var ordenado = diccionario.OrderBy(x=>x.Values).ToDictionary(x=>x.Key, x=>x.Values);
-Departamento=ordenado.Keys.ToArray();
-Poblacion=ordenado.Values.ToArray();
 //Mostrar resultado
 for (var i = 0; i < Poblacion.Length; i++)
 Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");

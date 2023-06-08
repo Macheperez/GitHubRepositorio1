@@ -30,8 +30,8 @@ Departamento=ordenado.Keys.ToArray();
 Poblacion=ordenado.Values.ToArray();
 //Mostrar resultado
 for (var i = 0; i < Poblacion.Length; i++)
-    Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
-//Sumar todas las poblaciones con LinQ
+Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
+//Sumar todas las poblaciones con sum de LinQ
 Console.WriteLine($"Población General:{diccionario.Values.Sum():N0}");
 Console.WriteLine($"Departamento con mayor Población:{maxDepkey}");
 Console.WriteLine($"Departamento con menor Población:{minDepkey}");

@@ -22,7 +22,7 @@ for (var i = 0; i < Poblacion.Length; i++)
 //Mostrar el diccionario sin ordenar
 Console.WriteLine($"datos Desordenados");
 foreach (var item in diccionario)
-Console.WriteLine($"{item.Key, -20}==>{item.Value, 10:NO}");
+Console.WriteLine($"{item.Key, -20}==>{item.Value, 10:N0}");
 Console.WriteLine();
 //Mostrar resultado
 for (var i = 0; i < Poblacion.Length; i++)
@@ -31,6 +31,5 @@ Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
 Console.WriteLine($"Población General:{diccionario.Values.Sum():N0}");
 Console.WriteLine($"Departamento con mayor Población:{maxDepkey}");
 Console.WriteLine($"Departamento con menor Población:{minDepkey}");
-<<<<<<< HEAD
 //Población Promedio
-Console.WriteLine($"Poblacion promedio:"{diccionario.Values.Average():N2});
+Console.WriteLine($"Poblacion promedio:{diccionario.Values.Average():N2}"); 

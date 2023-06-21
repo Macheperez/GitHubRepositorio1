@@ -31,6 +31,5 @@ Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
 Console.WriteLine($"Población General:{diccionario.Values.Sum():N0}");
 Console.WriteLine($"Departamento con mayor Población:{maxDepkey}");
 Console.WriteLine($"Departamento con menor Población:{minDepkey}");
-<<<<<<< HEAD
 //Población Promedio
-Console.WriteLine($"Poblacion promedio:"{diccionario.Values.Average():N2});
+Console.WriteLine($"Poblacion promedio:{diccionario.Values.Average():N2}");
